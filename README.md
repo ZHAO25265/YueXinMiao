@@ -1,6 +1,4 @@
-# YueXinMiao
-
-> 月薪喵 — ESP32-S3 + SH1106 I2C OLED 动画
+# 月薪喵 — ESP32-S3 + SH1106 I2C OLED 动画
 
 ## 硬件
 
