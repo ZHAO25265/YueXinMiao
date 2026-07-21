@@ -18,7 +18,7 @@
 | SCK  | GPIO 20    |
 | SDA  | GPIO 21    |
 
-> 这块屏幕的引脚标的是 SCK/SDA，其实就是 I2C 的 SCL/SDA。
+> 如这块屏幕的引脚标的是 SCK/SDA，其实就是 I2C 的 SCL/SDA。
 
 ## 跑
 
