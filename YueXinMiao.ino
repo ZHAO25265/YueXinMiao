@@ -1,13 +1,14 @@
 /*
- * CatAnimation - OLED 循环动画
- * ESP32-S3 + 1.3" SH1106 OLED (I2C 128x64)
+ * YueXinMiao — 月薪喵 OLED 动画
+ * ESP32-S3 + SH1106 I2C OLED (128x64)
  *
  * 接线: VDD→3.3V  GND→GND  SCK→GPIO20  SDA→GPIO21
+ * 零依赖: 不需要 U8g2 / Adafruit 等任何库
  */
 
 #include <Arduino.h>
 #include <Wire.h>
-#include "gif_frames.h"
+#include "frames/gif_frames.h"
 
 #define SDA_PIN  21
 #define SCL_PIN  20
